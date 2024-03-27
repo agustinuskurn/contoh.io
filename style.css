@@ -1,0 +1,464 @@
+/* Navbar */
+.container-fluid img {
+  width: 50%;
+}
+.nav-link {
+  color: white;
+}
+/* Video */
+.layar-penuh video {
+  position: relative;
+  width: 100%;
+}
+/* Background */
+body {
+  background-image: url(img/bakground/kolam.jpg);
+  background-image: url(img/bakground/villa.jpg);
+}
+
+/* Login */
+input[type='text'],
+input[type='password'] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #222;
+  color: white;
+  padding: 14px 20px;
+  margin: 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.avatar {
+  width: 40%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s;
+}
+
+@-webkit-keyframes animatezoom {
+  from {
+    -webkit-transform: scale(0);
+  }
+  to {
+    -webkit-transform: scale(1);
+  }
+}
+
+@keyframes animatezoom {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}
+
+/* BookNow */
+#booknow {
+  background-color: #fefefe;
+}
+#booknow h5 {
+  text-align: right;
+  margin-top: 10px;
+}
+#booknow button {
+  text-align: left;
+  color: #425dbc;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+/* Informasi */
+#Kempinski {
+  text-align: center;
+}
+#Kempinski h2 {
+  color: #ffffff;
+  text-decoration: underline;
+  text-underline-offset: 10px;
+}
+#Kempinski p {
+  color: #fefefe;
+  font-size: larger;
+}
+/* Room */
+#index {
+  margin-top: 100px;
+  margin-left: 100px;
+}
+#room {
+  width: 500px;
+  height: 230px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: rgba(66, 93, 188, 0.75);
+  margin-top: 120px;
+}
+#room h1 {
+  margin-bottom: 10px;
+  font-style: normal;
+  font-family: Habibi;
+  color: #ffffff;
+}
+#room p {
+  color: #fff;
+  font-family: Habibi;
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+#index img {
+  width: 100%;
+  border-radius: 10px;
+}
+#index ul li {
+  color: #fefefe;
+  font-size: larger;
+}
+.figure-caption #room {
+  bottom: 800px;
+}
+/* Restaurant */
+#Kempinski {
+  margin-top: 100px;
+}
+.figure-caption {
+  width: 500px;
+  height: 150px;
+}
+.figure-caption h1 {
+  margin-left: 10px;
+  font-style: normal;
+  font-family: Habibi;
+}
+.figure-caption p {
+  color: #fff;
+  font-size: large;
+  font-style: normal;
+  line-height: normal;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: Habibi;
+}
+/* Restaurant */
+.figure_restaurant {
+  margin-top: 100px;
+}
+.figure_restaurant {
+  width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.figure-caption {
+  border-radius: 20px;
+  margin: 0%;
+  background-color: #425dbcbf;
+  opacity: 0.7;
+}
+.figure-caption h1 {
+  color: #fefefe;
+  text-decoration: underline;
+  text-underline-offset: 10px;
+}
+.figure-caption p {
+  color: #fefefe;
+  font-size: larger;
+}
+/* Meeting */
+.figure_meeting {
+  margin-top: 100px;
+}
+.figure_meeting {
+  width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#meeting p {
+  text-align: left;
+  font-size: 18px;
+}
+#meeting h1 {
+  text-align: left;
+}
+/* LuxurySpa */
+#luxuryspa {
+  margin-top: 100px;
+}
+#luxuryspa {
+  background-color: #58689e;
+}
+#luxuryspa .col-6 h1 {
+  text-align: center;
+  color: #fefefe;
+  text-decoration: underline;
+  text-underline-offset: 15px;
+  margin-top: 100px;
+  margin-left: 10px;
+  font-family: Habibi;
+  font-size: 50px;
+}
+#luxuryspa .col-6 p {
+  text-align: center;
+  color: #fefefe;
+  font-size: larger;
+  margin-left: 10px;
+  font-family: Habibi;
+}
+#luxuryspa .col-6 img {
+  width: 80%;
+  border-radius: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+#luxuryspa .col-6 button {
+  border: none;
+  text-align: center;
+  font-size: 16px;
+}
+#luxuryspa button {
+  background-color: #425dbc;
+  margin-left: 370px;
+  border-radius: 8px;
+  width: 20%;
+  height: 60px;
+  flex-shrink: 0;
+}
+/* Footer */
+#foter {
+  background-color: #425dbc;
+}
+#logo {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 150px;
+}
+#logo_telfon h1 {
+  margin: 40px;
+}
+#logo_telfon p a {
+  color: #fefefe;
+  float: right;
+  position: relative;
+  bottom: 80px;
+  right: 200px;
+}
+#logo_pesan h1 {
+  margin: 40px;
+}
+#logo_pesan p a {
+  color: #fefefe;
+  float: right;
+  position: relative;
+  bottom: 80px;
+  right: 150px;
+}
+#logo_lokasi h1 {
+  margin: 40px;
+}
+#logo_lokasi p a {
+  color: #fefefe;
+  float: right;
+  position: relative;
+  bottom: 80px;
+  right: 150px;
+}
+#logo_ig h1 {
+  margin: 40px;
+}
+#logo_ig p a {
+  color: #fefefe;
+  float: right;
+  position: relative;
+  bottom: 80px;
+  right: 220px;
+}
+#logo_fb h1 {
+  margin: 40px;
+}
+#logo_fb p a {
+  color: #fefefe;
+  float: right;
+  position: relative;
+  bottom: 80px;
+  right: 150px;
+}
+#tugaskampus {
+  background-color: #000;
+  height: 50px;
+}
+#tugaskampus p {
+  color: #fefefe;
+}
+#logo_jayanti img {
+  width: 40px;
+}
+/* Content room */
+#content {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+#content img {
+  width: 100%;
+}
+#content h1 {
+  text-transform: uppercase;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.row p1 {
+  color: #fefefe;
+  font-size: large;
+}
+.row p2 {
+  color: #fefefe;
+  font-size: large;
+}
+.row p3 {
+  color: #fefefe;
+  font-size: large;
+}
+.row p4 {
+  color: #fefefe;
+  font-size: large;
+}
+.row p5 {
+  color: #fefefe;
+  font-size: large;
+}
+.row p6 {
+  color: #fefefe;
+  font-size: large;
+}
+.row p7 {
+  color: #fefefe;
+  font-size: large;
+}
+.row p8 {
+  color: #fefefe;
+  font-size: large;
+}
+.row p9 {
+  color: #fefefe;
+  font-size: large;
+}
+.row p10 {
+  color: #fefefe;
+  font-size: large;
+}
+.row p11 {
+  color: #fefefe;
+  font-size: large;
+}
+div.scroll-container {
+  background-color: #425dbc;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+div.scroll-container img {
+  padding: 10px;
+  width: 600px;
+  height: 400px;
+}
+
+/*meeting*/
